@@ -1,0 +1,11 @@
+### Request Faucets
+POST http://127.0.0.1:8000/faucet/fund/
+Content-Type: application/json
+
+{
+    "wallet_address": "0x2B4E3Df272E05b5318C69C95274055973C36fE1D"
+}
+
+### GET Faucets Stats
+GET http://127.0.0.1:8000/faucet/stats/
+Content-Type: application/json
